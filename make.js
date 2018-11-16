@@ -32,7 +32,7 @@ let scssTemplate = elementName => {
 };
 
 let writeJsFile = (elementName, fileContent) => {
-  fs.writeFile(`./output/${elementName}.js`, fileContent, function(err) {
+  fs.writeFile(`./dist/${elementName}.js`, fileContent, function(err) {
     if (err) {
       return console.log(err);
     }
@@ -42,7 +42,7 @@ let writeJsFile = (elementName, fileContent) => {
 };
 
 let writeScssFile = (elementName, fileContent) => {
-  fs.writeFile(`./output/${elementName}.scss`, fileContent, function(err) {
+  fs.writeFile(`./dist/${elementName}.scss`, fileContent, function(err) {
     if (err) {
       return console.log(err);
     }
