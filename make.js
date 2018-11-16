@@ -24,15 +24,13 @@ let javascriptTemplate = elementName => {
 };
 
 let scssTemplate = elementName => {
-  let scssTemplate = `${elementName} {
-
-  }`;
+  let scssTemplate = `${elementName} {}`;
 
   return scssTemplate;
 };
 
 let writeJsFile = (elementName, fileContent) => {
-  fs.writeFile(`./dist/${elementName}.js`, fileContent, function(err) {
+  fs.writeFile(`./dist/${elementName}/${elementName}.js`, fileContent, function(err) {
     if (err) {
       return console.log(err);
     }
@@ -42,7 +40,7 @@ let writeJsFile = (elementName, fileContent) => {
 };
 
 let writeScssFile = (elementName, fileContent) => {
-  fs.writeFile(`./dist/${elementName}.scss`, fileContent, function(err) {
+  fs.writeFile(`./dist/${elementName}/${elementName}.scss`, fileContent, function(err) {
     if (err) {
       return console.log(err);
     }
@@ -51,8 +49,18 @@ let writeScssFile = (elementName, fileContent) => {
   });
 };
 
+let makeFolder = (elementName) => {
+  !fs.existsSync('./dist/' + elementName) ? 
+    fs.mkdirSync('./dist/' + elementName) :
+    console.log('NO NO NO NO ')
+
+};
+
+
 let makeFiles = elementName => {
   console.log('making:', elementName);
+  
+  makeFolder(elementName);
   writeScssFile(elementName, scssTemplate(elementName));
   writeJsFile(elementName, javascriptTemplate(elementName));
 };
@@ -60,5 +68,7 @@ let makeFiles = elementName => {
 Elements.forEach(elementName => {
   makeFiles(capitalize(elementName));
 });
+
+makeFolder('test');
 
 console.log('done :D');

@@ -5,9 +5,8 @@
   "main": "makeCode.js",
   "scripts": {
     "start": "npm-run-all -s make format",
-    
     "make": "node ./make.js",
-    "format": "prettier ./output/** --write"
+    "format": "prettier ./dist/** --write"
   },
   "author": "zackmorgs",
   "license": "ISC",
