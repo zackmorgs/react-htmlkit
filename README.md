@@ -1,8 +1,9 @@
 a component for every html element. this way whenever you include the component it also brings it's required CSS.
 
-`import React from 'react';
-
-import './$Element.css';
+```
+// $Element.js
+import React from 'react';
+import './$Element.css'; // empty .css sheet just has $Element {}
 
 let $Element = props => (
   <$Element {...props}>
@@ -10,7 +11,8 @@ let $Element = props => (
   </$Element>
 );
 
-export default $Element;`
+export default $Element;
+```
 
 for use with react and such.
 
