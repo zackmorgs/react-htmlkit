@@ -13,7 +13,7 @@ looks like this so far:
 
 import React from 'react';
 import './$Element.css'; // empty .css sheet just has $Element {}
-// ^ the reason I made this. Now they only load css for elements they need.  
+// ^ the reason I made this. h5bp / other boilerplate code here.
 
 let $Element = props => (
   <$Element {...props}>
