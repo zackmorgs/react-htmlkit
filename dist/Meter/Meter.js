@@ -1,6 +1,6 @@
 import React from "react";
-import "./Meter.css";
+import "./Meter.scss";
 
-let Meter = props => <Meter {...props}>{props.children}</Meter>;
+let Meter = props => <meter {...props}>{props.children}</meter>;
 
 export default Meter;

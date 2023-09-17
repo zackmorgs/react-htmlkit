@@ -1,6 +1,6 @@
 import React from "react";
-import "./Mark.css";
+import "./Mark.scss";
 
-let Mark = props => <Mark {...props}>{props.children}</Mark>;
+let Mark = props => <mark {...props}>{props.children}</mark>;
 
 export default Mark;

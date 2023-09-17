@@ -1,6 +1,6 @@
 import React from "react";
-import "./Sup.css";
+import "./Sup.scss";
 
-let Sup = props => <Sup {...props}>{props.children}</Sup>;
+let Sup = props => <sup {...props}>{props.children}</sup>;
 
 export default Sup;

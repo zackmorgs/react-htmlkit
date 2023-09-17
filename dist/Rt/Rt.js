@@ -1,6 +1,6 @@
 import React from "react";
-import "./Rt.css";
+import "./Rt.scss";
 
-let Rt = props => <Rt {...props}>{props.children}</Rt>;
+let Rt = props => <rt {...props}>{props.children}</rt>;
 
 export default Rt;

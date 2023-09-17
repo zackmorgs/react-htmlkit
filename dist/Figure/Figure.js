@@ -1,6 +1,6 @@
 import React from "react";
-import "./Figure.css";
+import "./Figure.scss";
 
-let Figure = props => <Figure {...props}>{props.children}</Figure>;
+let Figure = props => <figure {...props}>{props.children}</figure>;
 
 export default Figure;

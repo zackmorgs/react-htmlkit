@@ -1,6 +1,6 @@
 import React from "react";
-import "./Hr.css";
+import "./Hr.scss";
 
-let Hr = props => <Hr {...props}>{props.children}</Hr>;
+let Hr = props => <hr {...props}>{props.children}</hr>;
 
 export default Hr;

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Area.css";
+import "./Area.scss";
 
-let Area = props => <Area {...props}>{props.children}</Area>;
+let Area = props => <area {...props}>{props.children}</area>;
 
 export default Area;

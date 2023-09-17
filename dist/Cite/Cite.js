@@ -1,6 +1,6 @@
 import React from "react";
-import "./Cite.css";
+import "./Cite.scss";
 
-let Cite = props => <Cite {...props}>{props.children}</Cite>;
+let Cite = props => <cite {...props}>{props.children}</cite>;
 
 export default Cite;

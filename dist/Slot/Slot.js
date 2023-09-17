@@ -1,6 +1,6 @@
 import React from "react";
-import "./Slot.css";
+import "./Slot.scss";
 
-let Slot = props => <Slot {...props}>{props.children}</Slot>;
+let Slot = props => <slot {...props}>{props.children}</slot>;
 
 export default Slot;

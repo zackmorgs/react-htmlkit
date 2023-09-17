@@ -1,6 +1,6 @@
 import React from "react";
-import "./Colgroup.css";
+import "./Colgroup.scss";
 
-let Colgroup = props => <Colgroup {...props}>{props.children}</Colgroup>;
+let Colgroup = props => <colgroup {...props}>{props.children}</colgroup>;
 
 export default Colgroup;

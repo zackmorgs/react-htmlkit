@@ -1,6 +1,6 @@
 import React from "react";
-import "./Track.css";
+import "./Track.scss";
 
-let Track = props => <Track {...props}>{props.children}</Track>;
+let Track = props => <track {...props}>{props.children}</track>;
 
 export default Track;

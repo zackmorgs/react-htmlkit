@@ -1,6 +1,6 @@
 import React from "react";
-import "./Datalist.css";
+import "./Datalist.scss";
 
-let Datalist = props => <Datalist {...props}>{props.children}</Datalist>;
+let Datalist = props => <datalist {...props}>{props.children}</datalist>;
 
 export default Datalist;

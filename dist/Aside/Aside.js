@@ -1,6 +1,6 @@
 import React from "react";
-import "./Aside.css";
+import "./Aside.scss";
 
-let Aside = props => <Aside {...props}>{props.children}</Aside>;
+let Aside = props => <aside {...props}>{props.children}</aside>;
 
 export default Aside;

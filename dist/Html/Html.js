@@ -1,6 +1,6 @@
 import React from "react";
-import "./Html.css";
+import "./Html.scss";
 
-let Html = props => <Html {...props}>{props.children}</Html>;
+let Html = props => <html {...props}>{props.children}</html>;
 
 export default Html;

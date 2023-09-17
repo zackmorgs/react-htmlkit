@@ -1,6 +1,6 @@
 import React from "react";
-import "./Hgroup.css";
+import "./Hgroup.scss";
 
-let Hgroup = props => <Hgroup {...props}>{props.children}</Hgroup>;
+let Hgroup = props => <hgroup {...props}>{props.children}</hgroup>;
 
 export default Hgroup;

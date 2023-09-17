@@ -1,6 +1,6 @@
 import React from "react";
-import "./Ol.css";
+import "./Ol.scss";
 
-let Ol = props => <Ol {...props}>{props.children}</Ol>;
+let Ol = props => <ol {...props}>{props.children}</ol>;
 
 export default Ol;

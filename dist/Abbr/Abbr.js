@@ -1,6 +1,6 @@
 import React from "react";
-import "./Abbr.css";
+import "./Abbr.scss";
 
-let Abbr = props => <Abbr {...props}>{props.children}</Abbr>;
+let Abbr = props => <abbr {...props}>{props.children}</abbr>;
 
 export default Abbr;

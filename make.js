@@ -9,12 +9,12 @@ function capitalize(string) {
 
 let javascriptTemplate = elementName => {
   let jsTemplate = `import React from 'react';
-  import './${elementName}.css';
+  import './${elementName}.scss';
 
   let ${elementName} = props => (
-    <${elementName} {...props}>
+    <${elementName.toLowerCase()} {...props}>
       {props.children}
-    </${elementName}>
+    </${elementName.toLowerCase()}>
   );
 
   export default ${elementName};

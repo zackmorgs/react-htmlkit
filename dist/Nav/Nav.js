@@ -1,6 +1,6 @@
 import React from "react";
-import "./Nav.css";
+import "./Nav.scss";
 
-let Nav = props => <Nav {...props}>{props.children}</Nav>;
+let Nav = props => <nav {...props}>{props.children}</nav>;
 
 export default Nav;

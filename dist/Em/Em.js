@@ -1,6 +1,6 @@
 import React from "react";
-import "./Em.css";
+import "./Em.scss";
 
-let Em = props => <Em {...props}>{props.children}</Em>;
+let Em = props => <em {...props}>{props.children}</em>;
 
 export default Em;

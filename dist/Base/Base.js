@@ -1,6 +1,6 @@
 import React from "react";
-import "./Base.css";
+import "./Base.scss";
 
-let Base = props => <Base {...props}>{props.children}</Base>;
+let Base = props => <base {...props}>{props.children}</base>;
 
 export default Base;

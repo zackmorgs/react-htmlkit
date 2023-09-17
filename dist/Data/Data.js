@@ -1,6 +1,6 @@
 import React from "react";
-import "./Data.css";
+import "./Data.scss";
 
-let Data = props => <Data {...props}>{props.children}</Data>;
+let Data = props => <data {...props}>{props.children}</data>;
 
 export default Data;

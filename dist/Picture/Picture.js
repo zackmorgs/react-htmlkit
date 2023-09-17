@@ -1,6 +1,6 @@
 import React from "react";
-import "./Picture.css";
+import "./Picture.scss";
 
-let Picture = props => <Picture {...props}>{props.children}</Picture>;
+let Picture = props => <picture {...props}>{props.children}</picture>;
 
 export default Picture;

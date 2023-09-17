@@ -1,6 +1,6 @@
 import React from "react";
-import "./Option.css";
+import "./Option.scss";
 
-let Option = props => <Option {...props}>{props.children}</Option>;
+let Option = props => <option {...props}>{props.children}</option>;
 
 export default Option;

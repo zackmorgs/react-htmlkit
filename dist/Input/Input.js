@@ -1,6 +1,6 @@
 import React from "react";
-import "./Input.css";
+import "./Input.scss";
 
-let Input = props => <Input {...props}>{props.children}</Input>;
+let Input = props => <input {...props}>{props.children}</input>;
 
 export default Input;

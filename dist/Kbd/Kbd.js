@@ -1,6 +1,6 @@
 import React from "react";
-import "./Kbd.css";
+import "./Kbd.scss";
 
-let Kbd = props => <Kbd {...props}>{props.children}</Kbd>;
+let Kbd = props => <kbd {...props}>{props.children}</kbd>;
 
 export default Kbd;

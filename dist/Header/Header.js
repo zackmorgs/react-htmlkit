@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
+import "./Header.scss";
 
-let Header = props => <Header {...props}>{props.children}</Header>;
+let Header = props => <header {...props}>{props.children}</header>;
 
 export default Header;

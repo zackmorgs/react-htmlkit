@@ -1,6 +1,6 @@
 import React from "react";
-import "./Del.css";
+import "./Del.scss";
 
-let Del = props => <Del {...props}>{props.children}</Del>;
+let Del = props => <del {...props}>{props.children}</del>;
 
 export default Del;

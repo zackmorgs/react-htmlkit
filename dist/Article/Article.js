@@ -1,6 +1,6 @@
 import React from "react";
-import "./Article.css";
+import "./Article.scss";
 
-let Article = props => <Article {...props}>{props.children}</Article>;
+let Article = props => <article {...props}>{props.children}</article>;
 
 export default Article;

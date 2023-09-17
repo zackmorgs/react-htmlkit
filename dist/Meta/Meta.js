@@ -1,6 +1,6 @@
 import React from "react";
-import "./Meta.css";
+import "./Meta.scss";
 
-let Meta = props => <Meta {...props}>{props.children}</Meta>;
+let Meta = props => <meta {...props}>{props.children}</meta>;
 
 export default Meta;

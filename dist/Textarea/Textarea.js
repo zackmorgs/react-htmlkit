@@ -1,6 +1,6 @@
 import React from "react";
-import "./Textarea.css";
+import "./Textarea.scss";
 
-let Textarea = props => <Textarea {...props}>{props.children}</Textarea>;
+let Textarea = props => <textarea {...props}>{props.children}</textarea>;
 
 export default Textarea;

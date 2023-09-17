@@ -1,6 +1,6 @@
 import React from "react";
-import "./Td.css";
+import "./Td.scss";
 
-let Td = props => <Td {...props}>{props.children}</Td>;
+let Td = props => <td {...props}>{props.children}</td>;
 
 export default Td;

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Legend.css";
+import "./Legend.scss";
 
-let Legend = props => <Legend {...props}>{props.children}</Legend>;
+let Legend = props => <legend {...props}>{props.children}</legend>;
 
 export default Legend;

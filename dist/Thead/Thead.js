@@ -1,6 +1,6 @@
 import React from "react";
-import "./Thead.css";
+import "./Thead.scss";
 
-let Thead = props => <Thead {...props}>{props.children}</Thead>;
+let Thead = props => <thead {...props}>{props.children}</thead>;
 
 export default Thead;

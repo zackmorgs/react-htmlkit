@@ -1,6 +1,6 @@
 import React from "react";
-import "./Tbody.css";
+import "./Tbody.scss";
 
-let Tbody = props => <Tbody {...props}>{props.children}</Tbody>;
+let Tbody = props => <tbody {...props}>{props.children}</tbody>;
 
 export default Tbody;

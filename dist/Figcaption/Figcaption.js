@@ -1,6 +1,6 @@
 import React from "react";
-import "./Figcaption.css";
+import "./Figcaption.scss";
 
-let Figcaption = props => <Figcaption {...props}>{props.children}</Figcaption>;
+let Figcaption = props => <figcaption {...props}>{props.children}</figcaption>;
 
 export default Figcaption;

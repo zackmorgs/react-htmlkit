@@ -1,6 +1,6 @@
 import React from "react";
-import "./Object.css";
+import "./Object.scss";
 
-let Object = props => <Object {...props}>{props.children}</Object>;
+let Object = props => <object {...props}>{props.children}</object>;
 
 export default Object;

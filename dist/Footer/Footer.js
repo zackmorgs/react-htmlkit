@@ -1,6 +1,6 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 
-let Footer = props => <Footer {...props}>{props.children}</Footer>;
+let Footer = props => <footer {...props}>{props.children}</footer>;
 
 export default Footer;

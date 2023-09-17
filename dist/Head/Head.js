@@ -1,6 +1,6 @@
 import React from "react";
-import "./Head.css";
+import "./Head.scss";
 
-let Head = props => <Head {...props}>{props.children}</Head>;
+let Head = props => <head {...props}>{props.children}</head>;
 
 export default Head;

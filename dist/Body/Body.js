@@ -1,6 +1,6 @@
 import React from "react";
-import "./Body.css";
+import "./Body.scss";
 
-let Body = props => <Body {...props}>{props.children}</Body>;
+let Body = props => <body {...props}>{props.children}</body>;
 
 export default Body;

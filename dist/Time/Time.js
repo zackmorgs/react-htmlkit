@@ -1,6 +1,6 @@
 import React from "react";
-import "./Time.css";
+import "./Time.scss";
 
-let Time = props => <Time {...props}>{props.children}</Time>;
+let Time = props => <time {...props}>{props.children}</time>;
 
 export default Time;

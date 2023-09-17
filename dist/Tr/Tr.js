@@ -1,6 +1,6 @@
 import React from "react";
-import "./Tr.css";
+import "./Tr.scss";
 
-let Tr = props => <Tr {...props}>{props.children}</Tr>;
+let Tr = props => <tr {...props}>{props.children}</tr>;
 
 export default Tr;

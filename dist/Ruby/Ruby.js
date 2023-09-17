@@ -1,6 +1,6 @@
 import React from "react";
-import "./Ruby.css";
+import "./Ruby.scss";
 
-let Ruby = props => <Ruby {...props}>{props.children}</Ruby>;
+let Ruby = props => <ruby {...props}>{props.children}</ruby>;
 
 export default Ruby;

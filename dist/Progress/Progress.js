@@ -1,6 +1,6 @@
 import React from "react";
-import "./Progress.css";
+import "./Progress.scss";
 
-let Progress = props => <Progress {...props}>{props.children}</Progress>;
+let Progress = props => <progress {...props}>{props.children}</progress>;
 
 export default Progress;

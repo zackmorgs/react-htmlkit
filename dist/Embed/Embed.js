@@ -1,6 +1,6 @@
 import React from "react";
-import "./Embed.css";
+import "./Embed.scss";
 
-let Embed = props => <Embed {...props}>{props.children}</Embed>;
+let Embed = props => <embed {...props}>{props.children}</embed>;
 
 export default Embed;

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Noscript.css";
+import "./Noscript.scss";
 
-let Noscript = props => <Noscript {...props}>{props.children}</Noscript>;
+let Noscript = props => <noscript {...props}>{props.children}</noscript>;
 
 export default Noscript;

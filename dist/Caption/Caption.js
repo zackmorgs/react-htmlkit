@@ -1,6 +1,6 @@
 import React from "react";
-import "./Caption.css";
+import "./Caption.scss";
 
-let Caption = props => <Caption {...props}>{props.children}</Caption>;
+let Caption = props => <caption {...props}>{props.children}</caption>;
 
 export default Caption;

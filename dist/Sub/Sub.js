@@ -1,6 +1,6 @@
 import React from "react";
-import "./Sub.css";
+import "./Sub.scss";
 
-let Sub = props => <Sub {...props}>{props.children}</Sub>;
+let Sub = props => <sub {...props}>{props.children}</sub>;
 
 export default Sub;

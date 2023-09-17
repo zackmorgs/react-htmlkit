@@ -1,6 +1,6 @@
 import React from "react";
-import "./Span.css";
+import "./Span.scss";
 
-let Span = props => <Span {...props}>{props.children}</Span>;
+let Span = props => <span {...props}>{props.children}</span>;
 
 export default Span;

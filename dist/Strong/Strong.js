@@ -1,6 +1,6 @@
 import React from "react";
-import "./Strong.css";
+import "./Strong.scss";
 
-let Strong = props => <Strong {...props}>{props.children}</Strong>;
+let Strong = props => <strong {...props}>{props.children}</strong>;
 
 export default Strong;

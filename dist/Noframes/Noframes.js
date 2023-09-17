@@ -1,6 +1,6 @@
 import React from "react";
-import "./Noframes.css";
+import "./Noframes.scss";
 
-let Noframes = props => <Noframes {...props}>{props.children}</Noframes>;
+let Noframes = props => <noframes {...props}>{props.children}</noframes>;
 
 export default Noframes;

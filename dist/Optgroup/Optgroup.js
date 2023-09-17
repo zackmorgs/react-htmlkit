@@ -1,6 +1,6 @@
 import React from "react";
-import "./Optgroup.css";
+import "./Optgroup.scss";
 
-let Optgroup = props => <Optgroup {...props}>{props.children}</Optgroup>;
+let Optgroup = props => <optgroup {...props}>{props.children}</optgroup>;
 
 export default Optgroup;

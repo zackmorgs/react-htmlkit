@@ -1,6 +1,6 @@
 import React from "react";
-import "./Bdi.css";
+import "./Bdi.scss";
 
-let Bdi = props => <Bdi {...props}>{props.children}</Bdi>;
+let Bdi = props => <bdi {...props}>{props.children}</bdi>;
 
 export default Bdi;

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Title.css";
+import "./Title.scss";
 
-let Title = props => <Title {...props}>{props.children}</Title>;
+let Title = props => <title {...props}>{props.children}</title>;
 
 export default Title;

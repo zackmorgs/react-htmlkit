@@ -1,6 +1,6 @@
 import React from "react";
-import "./Summary.css";
+import "./Summary.scss";
 
-let Summary = props => <Summary {...props}>{props.children}</Summary>;
+let Summary = props => <summary {...props}>{props.children}</summary>;
 
 export default Summary;

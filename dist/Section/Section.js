@@ -1,6 +1,6 @@
 import React from "react";
-import "./Section.css";
+import "./Section.scss";
 
-let Section = props => <Section {...props}>{props.children}</Section>;
+let Section = props => <section {...props}>{props.children}</section>;
 
 export default Section;

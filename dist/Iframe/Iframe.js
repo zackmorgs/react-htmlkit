@@ -1,6 +1,6 @@
 import React from "react";
-import "./Iframe.css";
+import "./Iframe.scss";
 
-let Iframe = props => <Iframe {...props}>{props.children}</Iframe>;
+let Iframe = props => <iframe {...props}>{props.children}</iframe>;
 
 export default Iframe;

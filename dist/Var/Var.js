@@ -1,6 +1,6 @@
 import React from "react";
-import "./Var.css";
+import "./Var.scss";
 
-let Var = props => <Var {...props}>{props.children}</Var>;
+let Var = props => <var {...props}>{props.children}</var>;
 
 export default Var;

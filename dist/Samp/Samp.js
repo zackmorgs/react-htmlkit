@@ -1,6 +1,6 @@
 import React from "react";
-import "./Samp.css";
+import "./Samp.scss";
 
-let Samp = props => <Samp {...props}>{props.children}</Samp>;
+let Samp = props => <samp {...props}>{props.children}</samp>;
 
 export default Samp;

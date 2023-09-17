@@ -1,6 +1,6 @@
 import React from "react";
-import "./Audio.css";
+import "./Audio.scss";
 
-let Audio = props => <Audio {...props}>{props.children}</Audio>;
+let Audio = props => <audio {...props}>{props.children}</audio>;
 
 export default Audio;

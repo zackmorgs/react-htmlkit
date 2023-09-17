@@ -1,6 +1,6 @@
 import React from "react";
-import "./Div.css";
+import "./Div.scss";
 
-let Div = props => <Div {...props}>{props.children}</Div>;
+let Div = props => <div {...props}>{props.children}</div>;
 
 export default Div;

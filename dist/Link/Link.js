@@ -1,6 +1,6 @@
 import React from "react";
-import "./Link.css";
+import "./Link.scss";
 
-let Link = props => <Link {...props}>{props.children}</Link>;
+let Link = props => <link {...props}>{props.children}</link>;
 
 export default Link;

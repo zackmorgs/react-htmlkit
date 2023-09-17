@@ -1,6 +1,6 @@
 import React from "react";
-import "./Blockquote.css";
+import "./Blockquote.scss";
 
-let Blockquote = props => <Blockquote {...props}>{props.children}</Blockquote>;
+let Blockquote = props => <blockquote {...props}>{props.children}</blockquote>;
 
 export default Blockquote;

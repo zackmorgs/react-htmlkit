@@ -1,6 +1,6 @@
 import React from "react";
-import "./Col.css";
+import "./Col.scss";
 
-let Col = props => <Col {...props}>{props.children}</Col>;
+let Col = props => <col {...props}>{props.children}</col>;
 
 export default Col;

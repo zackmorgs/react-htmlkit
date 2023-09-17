@@ -1,6 +1,6 @@
 import React from "react";
-import "./Label.css";
+import "./Label.scss";
 
-let Label = props => <Label {...props}>{props.children}</Label>;
+let Label = props => <label {...props}>{props.children}</label>;
 
 export default Label;

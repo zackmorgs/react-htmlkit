@@ -1,6 +1,6 @@
 import React from "react";
-import "./Li.css";
+import "./Li.scss";
 
-let Li = props => <Li {...props}>{props.children}</Li>;
+let Li = props => <li {...props}>{props.children}</li>;
 
 export default Li;

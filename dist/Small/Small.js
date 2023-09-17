@@ -1,6 +1,6 @@
 import React from "react";
-import "./Small.css";
+import "./Small.scss";
 
-let Small = props => <Small {...props}>{props.children}</Small>;
+let Small = props => <small {...props}>{props.children}</small>;
 
 export default Small;

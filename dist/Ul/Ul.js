@@ -1,6 +1,6 @@
 import React from "react";
-import "./Ul.css";
+import "./Ul.scss";
 
-let Ul = props => <Ul {...props}>{props.children}</Ul>;
+let Ul = props => <ul {...props}>{props.children}</ul>;
 
 export default Ul;

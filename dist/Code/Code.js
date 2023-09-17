@@ -1,6 +1,6 @@
 import React from "react";
-import "./Code.css";
+import "./Code.scss";
 
-let Code = props => <Code {...props}>{props.children}</Code>;
+let Code = props => <code {...props}>{props.children}</code>;
 
 export default Code;

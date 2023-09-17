@@ -1,6 +1,6 @@
 import React from "react";
-import "./Map.css";
+import "./Map.scss";
 
-let Map = props => <Map {...props}>{props.children}</Map>;
+let Map = props => <map {...props}>{props.children}</map>;
 
 export default Map;

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Select.css";
+import "./Select.scss";
 
-let Select = props => <Select {...props}>{props.children}</Select>;
+let Select = props => <select {...props}>{props.children}</select>;
 
 export default Select;

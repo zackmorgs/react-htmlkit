@@ -1,6 +1,6 @@
 import React from "react";
-import "./Video.css";
+import "./Video.scss";
 
-let Video = props => <Video {...props}>{props.children}</Video>;
+let Video = props => <video {...props}>{props.children}</video>;
 
 export default Video;

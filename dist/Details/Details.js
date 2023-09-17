@@ -1,6 +1,6 @@
 import React from "react";
-import "./Details.css";
+import "./Details.scss";
 
-let Details = props => <Details {...props}>{props.children}</Details>;
+let Details = props => <details {...props}>{props.children}</details>;
 
 export default Details;

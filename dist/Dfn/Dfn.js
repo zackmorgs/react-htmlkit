@@ -1,6 +1,6 @@
 import React from "react";
-import "./Dfn.css";
+import "./Dfn.scss";
 
-let Dfn = props => <Dfn {...props}>{props.children}</Dfn>;
+let Dfn = props => <dfn {...props}>{props.children}</dfn>;
 
 export default Dfn;

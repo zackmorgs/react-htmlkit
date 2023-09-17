@@ -1,6 +1,6 @@
 import React from "react";
-import "./Tfoot.css";
+import "./Tfoot.scss";
 
-let Tfoot = props => <Tfoot {...props}>{props.children}</Tfoot>;
+let Tfoot = props => <tfoot {...props}>{props.children}</tfoot>;
 
 export default Tfoot;

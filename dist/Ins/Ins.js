@@ -1,6 +1,6 @@
 import React from "react";
-import "./Ins.css";
+import "./Ins.scss";
 
-let Ins = props => <Ins {...props}>{props.children}</Ins>;
+let Ins = props => <ins {...props}>{props.children}</ins>;
 
 export default Ins;

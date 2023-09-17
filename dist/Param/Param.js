@@ -1,6 +1,6 @@
 import React from "react";
-import "./Param.css";
+import "./Param.scss";
 
-let Param = props => <Param {...props}>{props.children}</Param>;
+let Param = props => <param {...props}>{props.children}</param>;
 
 export default Param;

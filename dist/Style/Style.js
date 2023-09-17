@@ -1,6 +1,6 @@
 import React from "react";
-import "./Style.css";
+import "./Style.scss";
 
-let Style = props => <Style {...props}>{props.children}</Style>;
+let Style = props => <style {...props}>{props.children}</style>;
 
 export default Style;

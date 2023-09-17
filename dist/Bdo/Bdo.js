@@ -1,6 +1,6 @@
 import React from "react";
-import "./Bdo.css";
+import "./Bdo.scss";
 
-let Bdo = props => <Bdo {...props}>{props.children}</Bdo>;
+let Bdo = props => <bdo {...props}>{props.children}</bdo>;
 
 export default Bdo;

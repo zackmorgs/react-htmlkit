@@ -1,6 +1,6 @@
 import React from "react";
-import "./Form.css";
+import "./Form.scss";
 
-let Form = props => <Form {...props}>{props.children}</Form>;
+let Form = props => <form {...props}>{props.children}</form>;
 
 export default Form;

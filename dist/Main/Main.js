@@ -1,6 +1,6 @@
 import React from "react";
-import "./Main.css";
+import "./Main.scss";
 
-let Main = props => <Main {...props}>{props.children}</Main>;
+let Main = props => <main {...props}>{props.children}</main>;
 
 export default Main;

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Rtc.css";
+import "./Rtc.scss";
 
-let Rtc = props => <Rtc {...props}>{props.children}</Rtc>;
+let Rtc = props => <rtc {...props}>{props.children}</rtc>;
 
 export default Rtc;

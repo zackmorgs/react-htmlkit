@@ -1,6 +1,6 @@
 import React from "react";
-import "./Wbr.css";
+import "./Wbr.scss";
 
-let Wbr = props => <Wbr {...props}>{props.children}</Wbr>;
+let Wbr = props => <wbr {...props}>{props.children}</wbr>;
 
 export default Wbr;

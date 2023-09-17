@@ -1,6 +1,6 @@
 import React from "react";
-import "./Button.css";
+import "./Button.scss";
 
-let Button = props => <Button {...props}>{props.children}</Button>;
+let Button = props => <button {...props}>{props.children}</button>;
 
 export default Button;

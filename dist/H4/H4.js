@@ -1,6 +1,6 @@
 import React from "react";
-import "./H4.css";
+import "./H4.scss";
 
-let H4 = props => <H4 {...props}>{props.children}</H4>;
+let H4 = props => <h4 {...props}>{props.children}</h4>;
 
 export default H4;

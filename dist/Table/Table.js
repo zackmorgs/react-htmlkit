@@ -1,6 +1,6 @@
 import React from "react";
-import "./Table.css";
+import "./Table.scss";
 
-let Table = props => <Table {...props}>{props.children}</Table>;
+let Table = props => <table {...props}>{props.children}</table>;
 
 export default Table;

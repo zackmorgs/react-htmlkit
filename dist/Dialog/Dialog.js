@@ -1,6 +1,6 @@
 import React from "react";
-import "./Dialog.css";
+import "./Dialog.scss";
 
-let Dialog = props => <Dialog {...props}>{props.children}</Dialog>;
+let Dialog = props => <dialog {...props}>{props.children}</dialog>;
 
 export default Dialog;

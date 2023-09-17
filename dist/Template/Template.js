@@ -1,6 +1,6 @@
 import React from "react";
-import "./Template.css";
+import "./Template.scss";
 
-let Template = props => <Template {...props}>{props.children}</Template>;
+let Template = props => <template {...props}>{props.children}</template>;
 
 export default Template;

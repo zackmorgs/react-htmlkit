@@ -1,6 +1,6 @@
 import React from "react";
-import "./Canvas.css";
+import "./Canvas.scss";
 
-let Canvas = props => <Canvas {...props}>{props.children}</Canvas>;
+let Canvas = props => <canvas {...props}>{props.children}</canvas>;
 
 export default Canvas;

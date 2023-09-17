@@ -1,6 +1,6 @@
 import React from "react";
-import "./H5.css";
+import "./H5.scss";
 
-let H5 = props => <H5 {...props}>{props.children}</H5>;
+let H5 = props => <h5 {...props}>{props.children}</h5>;
 
 export default H5;
