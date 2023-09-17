@@ -30,7 +30,7 @@ let scssTemplate = elementName => {
 };
 
 let writeJsFile = (elementName, fileContent) => {
-  fs.writeFile(`./dist/${elementName}/${elementName}.js`, fileContent, function(err) {
+  fs.writeFile(`./dist/${elementName}/${elementName}.jsx`, fileContent, function(err) {
     if (err) {
       return console.log(err);
     }
@@ -52,8 +52,7 @@ let writeScssFile = (elementName, fileContent) => {
 let makeFolder = (elementName) => {
   !fs.existsSync('./dist/' + elementName) ? 
     fs.mkdirSync('./dist/' + elementName) :
-    console.log('NO NO NO NO ')
-
+    console.err('Something went wrong making a folder. HTML Tag Name:' + elementName)
 };
 
 
@@ -69,6 +68,6 @@ Elements.forEach(elementName => {
   makeFiles(capitalize(elementName));
 });
 
-makeFolder('test');
+// makeFolder('test');
 
 console.log('done :D');
