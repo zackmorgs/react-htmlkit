@@ -11,3 +11,5 @@ let html_tag_string = "";
 html_tags.forEach((tag, index, array)=>{
     html_tag_string += `'${tag}',`
 }); // just delete the last comma yourself im too lazy to do that
+
+// PS YOU HAVE TO ADD H2-H6 mozilla doesnt include that on the sidebar
