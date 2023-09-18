@@ -13,3 +13,5 @@ html_tags.forEach((tag, index, array)=>{
 }); // just delete the last comma yourself im too lazy to do that
 
 // PS YOU HAVE TO ADD H2-H6 mozilla doesnt include that on the sidebar
+
+// I also found out deleting Body, Html, and Head is a good idea because it isnt possible to use those.
